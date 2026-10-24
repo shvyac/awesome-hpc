@@ -5,7 +5,7 @@
 
 High Performance Computing tools and resources for engineers and administrators. ⭐ badges show live GitHub star counts (via shields.io).
 
-[High Performance Computing (HPC)](https://en.wikipedia.org/wiki/Supercomputer) most generally refers to the practice of aggregating computing power in a way that delivers much higher performance than one could get out of a typical desktop computer or workstation in order to solve large problems in science, engineering, or business.
+High Performance Computing (HPC) most generally refers to the practice of aggregating computing power in a way that delivers much higher performance than one could get out of a typical desktop computer or workstation in order to solve large problems in science, engineering, or business.
 
 > Forked from [dstdev/awesome-hpc](https://github.com/dstdev/awesome-hpc) ![GitHub stars](https://img.shields.io/github/stars/dstdev/awesome-hpc?style=flat&label=%E2%AD%90) and refreshed (2026-10): moved / renamed / archived projects updated, plus newer schedulers, workflow engines, performance-portability layers, and storage.
 
@@ -60,13 +60,11 @@ High Performance Computing tools and resources for engineers and administrators.
 - [LSF](https://www.ibm.com/products/hpc-workload-management) - A job scheduler and workload management software developed by IBM `Proprietary`.
 - [Grid Engine](https://www.siemens.com/en-us/products/hpcworks/grid-engine/) - HPCWorks Grid Engine (formerly Univa / Altair Grid Engine), now part of Siemens after its acquisition of Altair `Proprietary`.
 - [Moab](https://adaptivecomputing.com/moab-hpc-suite/) - Moab is a workload management and job scheduler `other`.
-- [Torque](https://en.wikipedia.org/wiki/TORQUE) - Torque is a workload management and job scheduler `other`.
+- [Torque](https://github.com/adaptivecomputing/torque) ![GitHub stars](https://img.shields.io/github/stars/adaptivecomputing/torque?style=flat&label=%E2%AD%90) - Torque is a workload management and job scheduler from Adaptive Computing `other`.
 - [Volcano](https://volcano.sh/) ![GitHub stars](https://img.shields.io/github/stars/volcano-sh/volcano?style=flat&label=%E2%AD%90) - Volcano is a CNCF batch system built on Kubernetes for AI/ML, big data, and HPC ([Source Code](https://github.com/volcano-sh/volcano)) `Apache-2.0`.
 - [Kueue](https://kueue.sigs.k8s.io/) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/kueue?style=flat&label=%E2%AD%90) - Kubernetes-native job queueing and quota management (SIG Scheduling) ([Source Code](https://github.com/kubernetes-sigs/kueue)) `Apache-2.0`.
 - [Slinky](https://slinky.schedmd.com/) ![GitHub stars](https://img.shields.io/github/stars/SlinkyProject/slurm-operator?style=flat&label=%E2%AD%90) - SchedMD / NVIDIA toolkit for running Slurm on Kubernetes (slurm-operator, slurm-bridge, and container images) ([Source Code](https://github.com/SlinkyProject/slurm-operator)) `Apache-2.0`.
 - [Kube Batch](https://github.com/kubernetes-retired/kube-batch) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-retired/kube-batch?style=flat&label=%E2%AD%90) - A batch scheduler of Kubernetes for high performance workloads; archived (retired), see Volcano and Kueue `Apache-2.0`.
-- [OpenLava](https://en.wikipedia.org/wiki/OpenLava) - OpenLava was a workload management and job scheduler; discontinued `other`.
-- [Maui](https://en.wikipedia.org/wiki/Maui_Cluster_Scheduler) - Maui is a legacy open source job scheduler (predecessor of Moab), no longer maintained `other`.
 
 ## Pipelines
 - [Nextflow](https://nextflow.io) ![GitHub stars](https://img.shields.io/github/stars/nextflow-io/nextflow?style=flat&label=%E2%AD%90) - Data-driven computational pipelines ([Source Code](https://github.com/nextflow-io/nextflow)) `Apache-2.0`.

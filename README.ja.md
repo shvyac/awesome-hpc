@@ -5,7 +5,7 @@
 
 エンジニアと管理者のための、ハイパフォーマンスコンピューティング（HPC）のツールとリソース集です。⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
 
-[ハイパフォーマンスコンピューティング（HPC）](https://ja.wikipedia.org/wiki/スーパーコンピュータ)とは、一般的なデスクトップ PC やワークステーションをはるかに上回る性能が得られるように計算資源を束ね、科学・工学・ビジネスの大規模な問題を解くための取り組みを広く指します。
+ハイパフォーマンスコンピューティング（HPC）とは、一般的なデスクトップ PC やワークステーションをはるかに上回る性能が得られるように計算資源を束ね、科学・工学・ビジネスの大規模な問題を解くための取り組みを広く指します。
 
 > [dstdev/awesome-hpc](https://github.com/dstdev/awesome-hpc) ![GitHub stars](https://img.shields.io/github/stars/dstdev/awesome-hpc?style=flat&label=%E2%AD%90) からフォークし、2026 年 10 月に更新しました。移転・改名・アーカイブされたプロジェクトを反映し、新しいスケジューラ、ワークフローエンジン、性能可搬性レイヤー、ストレージを追加しています。
 
@@ -60,13 +60,11 @@
 - [LSF](https://www.ibm.com/products/hpc-workload-management) - IBM のジョブスケジューラ／ワークロード管理ソフトウェア `Proprietary`。
 - [Grid Engine](https://www.siemens.com/en-us/products/hpcworks/grid-engine/) - HPCWorks Grid Engine（旧 Univa／Altair Grid Engine）。Altair の買収により現在は Siemens の製品 `Proprietary`。
 - [Moab](https://adaptivecomputing.com/moab-hpc-suite/) - ワークロード管理・ジョブスケジューラ `other`。
-- [Torque](https://en.wikipedia.org/wiki/TORQUE) - ワークロード管理・ジョブスケジューラ `other`。
+- [Torque](https://github.com/adaptivecomputing/torque) ![GitHub stars](https://img.shields.io/github/stars/adaptivecomputing/torque?style=flat&label=%E2%AD%90) - Adaptive Computing のワークロード管理・ジョブスケジューラ `other`。
 - [Volcano](https://volcano.sh/) ![GitHub stars](https://img.shields.io/github/stars/volcano-sh/volcano?style=flat&label=%E2%AD%90) - AI／ML、ビッグデータ、HPC 向けの Kubernetes 上のバッチシステム（CNCF プロジェクト）（[ソースコード](https://github.com/volcano-sh/volcano)） `Apache-2.0`。
 - [Kueue](https://kueue.sigs.k8s.io/) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/kueue?style=flat&label=%E2%AD%90) - Kubernetes ネイティブのジョブキューイングとクォータ管理（SIG Scheduling）（[ソースコード](https://github.com/kubernetes-sigs/kueue)） `Apache-2.0`。
 - [Slinky](https://slinky.schedmd.com/) ![GitHub stars](https://img.shields.io/github/stars/SlinkyProject/slurm-operator?style=flat&label=%E2%AD%90) - Slurm を Kubernetes 上で動かすための SchedMD / NVIDIA 製ツール群（slurm-operator、slurm-bridge、コンテナイメージ）（[ソースコード](https://github.com/SlinkyProject/slurm-operator)） `Apache-2.0`。
 - [Kube Batch](https://github.com/kubernetes-retired/kube-batch) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-retired/kube-batch?style=flat&label=%E2%AD%90) - 高性能ワークロード向けの Kubernetes バッチスケジューラ。アーカイブ済み（後継は Volcano や Kueue） `Apache-2.0`。
-- [OpenLava](https://en.wikipedia.org/wiki/OpenLava) - かつてのワークロード管理・ジョブスケジューラ。開発終了 `other`。
-- [Maui](https://en.wikipedia.org/wiki/Maui_Cluster_Scheduler) - 旧来のオープンソース・ジョブスケジューラ（Moab の前身）。メンテナンス終了 `other`。
 
 ## パイプライン
 - [Nextflow](https://nextflow.io) ![GitHub stars](https://img.shields.io/github/stars/nextflow-io/nextflow?style=flat&label=%E2%AD%90) - データ駆動型の計算パイプライン（[ソースコード](https://github.com/nextflow-io/nextflow)） `Apache-2.0`。
