@@ -63,6 +63,7 @@ High Performance Computing tools and resources for engineers and administrators.
 - [Torque](https://en.wikipedia.org/wiki/TORQUE) - Torque is a workload management and job scheduler `other`.
 - [Volcano](https://volcano.sh/) ![GitHub stars](https://img.shields.io/github/stars/volcano-sh/volcano?style=flat&label=%E2%AD%90) - Volcano is a CNCF batch system built on Kubernetes for AI/ML, big data, and HPC ([Source Code](https://github.com/volcano-sh/volcano)) `Apache-2.0`.
 - [Kueue](https://kueue.sigs.k8s.io/) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/kueue?style=flat&label=%E2%AD%90) - Kubernetes-native job queueing and quota management (SIG Scheduling) ([Source Code](https://github.com/kubernetes-sigs/kueue)) `Apache-2.0`.
+- [Slinky](https://slinky.schedmd.com/) ![GitHub stars](https://img.shields.io/github/stars/SlinkyProject/slurm-operator?style=flat&label=%E2%AD%90) - SchedMD / NVIDIA toolkit for running Slurm on Kubernetes (slurm-operator, slurm-bridge, and container images) ([Source Code](https://github.com/SlinkyProject/slurm-operator)) `Apache-2.0`.
 - [Kube Batch](https://github.com/kubernetes-retired/kube-batch) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-retired/kube-batch?style=flat&label=%E2%AD%90) - A batch scheduler of Kubernetes for high performance workloads; archived (retired), see Volcano and Kueue `Apache-2.0`.
 - [OpenLava](https://en.wikipedia.org/wiki/OpenLava) - OpenLava was a workload management and job scheduler; discontinued `other`.
 - [Maui](https://en.wikipedia.org/wiki/Maui_Cluster_Scheduler) - Maui is a legacy open source job scheduler (predecessor of Moab), no longer maintained `other`.
@@ -124,6 +125,9 @@ High Performance Computing tools and resources for engineers and administrators.
 - [Valgrind](https://www.valgrind.org/) - Valgrind is a tool designed to profile programs to determine memory leaks ([Source Code](https://sourceware.org/git/?p=valgrind.git)) `GPL-2`.
 - [Paraver](https://tools.bsc.es/paraver) - Paraver is a very flexible data browser that is part of the CEPBA-Tools toolkit `other`.
 - [PAPI](https://icl.utk.edu/papi/) - Performance Application Programming Interface (PAPI) is a performance analysis tool `other`.
+- [HPCToolkit](https://hpctoolkit.org/) - Sampling-based performance measurement and analysis for CPU and GPU applications on supercomputers; development moved from GitHub to GitLab ([Source Code](https://gitlab.com/hpctoolkit/hpctoolkit)) `BSD-3`.
+- [Caliper](https://github.com/llnl/Caliper) ![GitHub stars](https://img.shields.io/github/stars/llnl/Caliper?style=flat&label=%E2%AD%90) - LLNL instrumentation and performance profiling library with annotation APIs for C, C++, Fortran and Python `BSD-3`.
+- [Darshan](https://wordpress.cels.anl.gov/darshan/) ![GitHub stars](https://img.shields.io/github/stars/darshan-hpc/darshan?style=flat&label=%E2%AD%90) - Lightweight, scalable I/O characterization tool for capturing application I/O behavior on HPC systems ([Source Code](https://github.com/darshan-hpc/darshan)) `other`.
 
 ## Parallel Shells
 - [pdsh](https://linux.die.net/man/1/pdsh) ![GitHub stars](https://img.shields.io/github/stars/chaos/pdsh?style=flat&label=%E2%AD%90) - pdsh runs terminal commands across multiple hosts in parallel ([Source Code](https://github.com/chaos/pdsh)) `GPL-2`.
@@ -206,7 +210,7 @@ High Performance Computing tools and resources for engineers and administrators.
 - [Hot Interconnects](https://hoti.org) - IEEE conference on software architectures and implementations for interconnection networks of all scales.
 - [ESSA](https://sites.google.com/view/essa-2024/) - Workshop on Extreme-Scale Storage and Analysis (2024 edition site).
 - [IEEE-IPDPS](https://www.ipdps.org/) - IEEE International Parallel & Distributed Processing Symposium.
-- [ESPM2 Workshop](http://nowlab.cse.ohio-state.edu/espm2/) - International Workshop on Extreme Scale Programming Models and Middleware.
+- [ESPM2 Workshop](http://nowlab.cse.ohio-state.edu/espm2/) - International Workshop on Extreme Scale Programming Models and Middleware (page for the 2023 edition, held with SC23).
 - [LCI Workshops](https://linuxclustersinstitute.org/workshops/) - The Linux Clusters Institute (LCI) is providing education and advanced technical training for the deployment and use of computing clusters to the high performance computing community worldwide.
 - [HPC Carpentry](https://www.hpc-carpentry.org/) - Teaching basic skills for high-performance computing.
 

@@ -63,6 +63,7 @@
 - [Torque](https://en.wikipedia.org/wiki/TORQUE) - ワークロード管理・ジョブスケジューラ `other`。
 - [Volcano](https://volcano.sh/) ![GitHub stars](https://img.shields.io/github/stars/volcano-sh/volcano?style=flat&label=%E2%AD%90) - AI／ML、ビッグデータ、HPC 向けの Kubernetes 上のバッチシステム（CNCF プロジェクト）（[ソースコード](https://github.com/volcano-sh/volcano)） `Apache-2.0`。
 - [Kueue](https://kueue.sigs.k8s.io/) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/kueue?style=flat&label=%E2%AD%90) - Kubernetes ネイティブのジョブキューイングとクォータ管理（SIG Scheduling）（[ソースコード](https://github.com/kubernetes-sigs/kueue)） `Apache-2.0`。
+- [Slinky](https://slinky.schedmd.com/) ![GitHub stars](https://img.shields.io/github/stars/SlinkyProject/slurm-operator?style=flat&label=%E2%AD%90) - Slurm を Kubernetes 上で動かすための SchedMD / NVIDIA 製ツール群（slurm-operator、slurm-bridge、コンテナイメージ）（[ソースコード](https://github.com/SlinkyProject/slurm-operator)） `Apache-2.0`。
 - [Kube Batch](https://github.com/kubernetes-retired/kube-batch) ![GitHub stars](https://img.shields.io/github/stars/kubernetes-retired/kube-batch?style=flat&label=%E2%AD%90) - 高性能ワークロード向けの Kubernetes バッチスケジューラ。アーカイブ済み（後継は Volcano や Kueue） `Apache-2.0`。
 - [OpenLava](https://en.wikipedia.org/wiki/OpenLava) - かつてのワークロード管理・ジョブスケジューラ。開発終了 `other`。
 - [Maui](https://en.wikipedia.org/wiki/Maui_Cluster_Scheduler) - 旧来のオープンソース・ジョブスケジューラ（Moab の前身）。メンテナンス終了 `other`。
@@ -124,6 +125,9 @@
 - [Valgrind](https://www.valgrind.org/) - メモリリークなどを調べるプロファイリングツール（[ソースコード](https://sourceware.org/git/?p=valgrind.git)） `GPL-2`。
 - [Paraver](https://tools.bsc.es/paraver) - CEPBA-Tools に含まれる柔軟なトレースデータブラウザ `other`。
 - [PAPI](https://icl.utk.edu/papi/) - ハードウェア性能カウンタを扱う性能解析用 API（Performance Application Programming Interface） `other`。
+- [HPCToolkit](https://hpctoolkit.org/) - スーパーコンピュータ上の CPU / GPU アプリケーション向けのサンプリングベース性能計測・解析ツール。開発は GitHub から GitLab へ移行（[ソースコード](https://gitlab.com/hpctoolkit/hpctoolkit)） `BSD-3`。
+- [Caliper](https://github.com/llnl/Caliper) ![GitHub stars](https://img.shields.io/github/stars/llnl/Caliper?style=flat&label=%E2%AD%90) - C、C++、Fortran、Python 向けのアノテーション API を備えた LLNL 製の計装・性能プロファイリングライブラリ `BSD-3`。
+- [Darshan](https://wordpress.cels.anl.gov/darshan/) ![GitHub stars](https://img.shields.io/github/stars/darshan-hpc/darshan?style=flat&label=%E2%AD%90) - HPC システム上のアプリケーションの I/O 挙動を記録する軽量・スケーラブルな I/O 特性解析ツール（[ソースコード](https://github.com/darshan-hpc/darshan)） `other`。
 
 ## 並列シェル
 - [pdsh](https://linux.die.net/man/1/pdsh) ![GitHub stars](https://img.shields.io/github/stars/chaos/pdsh?style=flat&label=%E2%AD%90) - 複数ホストでコマンドを並列実行する（[ソースコード](https://github.com/chaos/pdsh)） `GPL-2`。
@@ -206,7 +210,7 @@
 - [Hot Interconnects](https://hoti.org) - あらゆる規模の相互接続ネットワークのソフトウェア設計と実装に関する IEEE 会議。
 - [ESSA](https://sites.google.com/view/essa-2024/) - 超大規模ストレージと解析のワークショップ（2024 年版サイト）。
 - [IEEE-IPDPS](https://www.ipdps.org/) - IEEE 国際並列分散処理シンポジウム。
-- [ESPM2 Workshop](http://nowlab.cse.ohio-state.edu/espm2/) - 超大規模プログラミングモデルとミドルウェアの国際ワークショップ。
+- [ESPM2 Workshop](http://nowlab.cse.ohio-state.edu/espm2/) - 超大規模プログラミングモデルとミドルウェアの国際ワークショップ（SC23 併催の 2023 年版ページ）。
 - [LCI Workshops](https://linuxclustersinstitute.org/workshops/) - Linux Clusters Institute による、計算クラスタの導入と利用のための教育・技術トレーニング。
 - [HPC Carpentry](https://www.hpc-carpentry.org/) - HPC の基本スキルを教える講座。
 
